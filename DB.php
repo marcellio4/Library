@@ -11,13 +11,13 @@ class DB
 
     private $conn;
 
-    private $host = 'localhost';
+    private $host = '';
 
-    private $user = 'Dev';
+    private $user = '';
 
-    private $pass = 'D3v';
+    private $pass = '';
 
-    private $name = 'Serenity';
+    private $name = '';
 
     // The db connection is established in the private constructor.
     private function __construct()
